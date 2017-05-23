@@ -6,8 +6,6 @@ class PokemonTrainer
 {
     public function pick(Pokemon $pokemon): string
     {
-        //TODO: implement
-
-        return '';
+        return $pokemon->getAnswer();
     }
 }
